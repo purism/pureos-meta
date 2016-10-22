@@ -1,3 +1,11 @@
+pureos-meta (0.2) landing; urgency=medium
+
+  * Refreshed dependencies
+  * Added firefox-esr to desktop-recommends
+  * Added pureos-standard to desktop
+
+ -- Matthias Klumpp <matthias.klumpp@puri.sm>  Sat, 22 Oct 2016 21:42:32 +0200
+
 pureos-meta (0.1) landing; urgency=medium
 
   * Initial release.
