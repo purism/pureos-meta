@@ -1,0 +1,572 @@
+tanglu-meta (4.2.2) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Added fvwm-nightshade to fvwm-nightshade
+  * Added kde-spectacle to kde
+  * Added plasma-discover to kde-recommends
+  * Added smuxi to fvwm-nightshade-recommends
+  * Added vlc to fvwm-nightshade-recommends
+  * Removed about-distro from kde-recommends
+  * Removed ace-of-penguins from fvwm-nightshade-recommends
+  * Removed ksnapshot from kde
+  * Removed mplayer from fvwm-nightshade-recommends
+  * Removed muon-discover from kde-recommends
+  * Removed muon-notifier from kde-recommends
+  * Removed plasma-widget-kimpanel from kde-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Sat, 08 Oct 2016 18:21:04 +0200
+
+tanglu-meta (4.2.1) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Removed grub2 from fvwm-nightshade-recommends, gnome-recommends, kde-
+    recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Sat, 14 May 2016 16:38:50 +0200
+
+tanglu-meta (4.2) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Added cryptsetup to fvwm-nightshade-recommends, gnome-recommends
+  * Added fonts-arkpandora to fvwm-nightshade-recommends, gnome-
+    recommends, kde-recommends
+  * Added fonts-hack-ttf to fvwm-nightshade-recommends, gnome-
+    recommends, kde-recommends
+  * Added fonts-noto-cjk to fvwm-nightshade-recommends, gnome-
+    recommends, kde-recommends
+  * Added fonts-noto-hinted to fvwm-nightshade, gnome, kde
+  * Added libreoffice-style-breeze to kde-recommends
+  * Removed fonts-freefont-ttf from fvwm-nightshade, gnome, kde
+  * Removed fonts-kacst-one from fvwm-nightshade-recommends, gnome-
+    recommends, kde-recommends
+  * Removed fonts-lao from fvwm-nightshade-recommends, gnome-recommends,
+    kde-recommends
+  * Removed fonts-liberation from kde-recommends
+  * Removed fonts-lklug-sinhala from fvwm-nightshade-recommends, gnome-
+    recommends, kde-recommends
+  * Removed fonts-nanum from fvwm-nightshade-recommends, gnome-
+    recommends, kde-recommends
+  * Removed fonts-sil-abyssinica from fvwm-nightshade-recommends, gnome-
+    recommends, kde-recommends
+  * Removed fonts-sil-padauk from fvwm-nightshade-recommends, gnome-
+    recommends, kde-recommends
+  * Removed fonts-thai-tlwg from fvwm-nightshade-recommends, gnome-
+    recommends, kde-recommends
+  * Removed fonts-tibetan-machine from fvwm-nightshade-recommends, gnome-
+    recommends, kde-recommends
+  * Removed fonts-wqy-microhei from fvwm-nightshade-recommends, gnome-
+    recommends, kde-recommends
+  * Removed libreoffice-style-oxygen from kde-recommends
+  * Removed partitionmanager from kde-recommends
+  * Removed ttf-oxygen-font-family from kde-recommends
+  * Removed xchat from fvwm-nightshade-recommends
+  * Moved popularity-contest to standard-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Sat, 12 Mar 2016 20:22:28 +0100
+
+tanglu-meta (4.1) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Pre-depend on usrmerge in tanglu-minimal
+  * Removed apturl-kde from kde-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Sun, 03 Jan 2016 22:50:56 +0100
+
+tanglu-meta (4.0) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Added faenza-icon-theme to fvwm-nightshade
+  * Added fdpowermon to fvwm-nightshade-recommends
+  * Added four-in-a-row to gnome-recommends
+  * Added gnome-calendar to gnome-recommends
+  * Added gnome-clocks to gnome-recommends
+  * Added gnome-music to gnome-recommends
+  * Added gnome-nibbles to gnome-recommends
+  * Added grun to fvwm-nightshade
+  * Added mplayer to fvwm-nightshade-recommends
+  * Added pavucontrol to fvwm-nightshade
+  * Removed aisleriot from gnome-recommends
+  * Removed gmrun from fvwm-nightshade
+  * Removed gnect from gnome-recommends
+  * Removed gnome-documents from gnome
+  * Removed gnomine from gnome-recommends
+  * Removed kdegraphics-strigi-analyzer from kde-recommends
+  * Removed kmix from kde-recommends
+  * Removed knotes from kde-recommends
+  * Removed libavcodec-extra-56 from fvwm-nightshade-recommends, gnome-
+    recommends, kde-recommends
+  * Removed libgail-common from gnome-recommends
+  * Removed mplayer2 from fvwm-nightshade-recommends
+  * Removed tango-icon-theme from fvwm-nightshade
+  * Removed xfce4-power-manager from fvwm-nightshade
+  * Moved gnome-calculator to gnome-recommends
+  * Moved gnome-sushi to gnome-recommends
+  * Added kdeconnect to kde-recommends
+  * Added libavcodec-extra to fvwm-nightshade-recommends, gnome-
+    recommends, kde-recommends
+  * Added libpam-kwallet5 to kde-recommends
+  * Moved kdesudo to kde
+  * Moved tanglu-gnome-settings to gnome
+
+ -- Matthias Klumpp <mak@debian.org>  Sun, 25 Oct 2015 10:52:18 +0200
+
+tanglu-meta (3.92) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Added kwin-wayland to kde
+  * Added kwin-x11 to kde
+  * Added midori to fvwm-nightshade-recommends
+  * Added initramfs-tools to minimal
+  * Removed dracut from minimal
+  * Removed kwin from kde
+
+ -- Matthias Klumpp <mak@debian.org>  Sun, 04 Oct 2015 22:56:18 +0200
+
+tanglu-meta (3.91) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Removed kde-config-tablet from kde-recommends
+  * Added clementine to kde-recommends
+  * Added vlc to kde-recommends
+  * Added dracut to minimal
+  * Removed akregator from kde-recommends
+  * Removed amarok from kde-recommends
+  * Removed dragonplayer from kde-recommends
+  * Removed gnome-packagekit-session from gnome-recommends
+  * Removed initramfs-tools from minimal
+  * Removed kaddressbook from kde-recommends
+  * Removed konversation from kde-recommends
+  * Removed krdc from kde-recommends
+  * Removed libxp6 from fvwm-nightshade, gnome, kde
+
+ -- Matthias Klumpp <mak@debian.org>  Sun, 30 Aug 2015 18:18:18 +0200
+
+tanglu-meta (3.4) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Added tanglu-kde-settings to kde
+  * Removed tanglu-kde-settings-active from kde-recommends
+  * Removed tanglu-kde-settings-desktop from kde
+  * Removed tanglu-kde-settings-netbook from kde-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Sun, 12 Jul 2015 16:24:06 +0200
+
+tanglu-meta (3.3) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Added kmozillahelper to kde-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Mon, 15 Jun 2015 16:15:22 +0200
+
+tanglu-meta (3.2) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Added gnome-themes-standard to kde-recommends
+  * Removed gtk2-engines-oxygen from kde-recommends
+  * Removed gtk3-engines-oxygen from kde-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Fri, 29 May 2015 20:15:18 +0200
+
+tanglu-meta (3.1) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Added muon-discover to kde-recommends
+  * Added muon-notifier to kde-recommends
+  * Removed libreoffice-presentation-minimizer from gnome-recommends
+  * Introduced fvwm-nightshade as inofficial new seed
+
+ -- Matthias Klumpp <mak@debian.org>  Sun, 24 May 2015 22:38:34 +0200
+
+tanglu-meta (3.0.2) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Added dolphin to kde
+  * Added libavcodec-extra-56 to gnome-recommends, kde-recommends
+  * Added kmenuedit to kde
+
+ -- Matthias Klumpp <mak@debian.org>  Sat, 14 Mar 2015 21:30:34 +0100
+
+tanglu-meta (3.0.1) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Added about-distro to kde-recommends
+  * Added akregator to kde-recommends
+  * Added apturl-kde to kde-recommends
+  * Added baloo-kf5 to kde
+  * Added baloo-utils to kde-recommends
+  * Added breeze to kde
+  * Added fonts-liberation to kde-recommends
+  * Added frameworkintegration to kde-recommends
+  * Added gnome-packagekit-session to gnome-recommends
+  * Added kde-cli-tools to kde
+  * Added kde-config-gtk-style-preview to kde-recommends
+  * Added kde-config-sddm to kde-recommends
+  * Added khelpcenter to kde
+  * Added khotkeys to kde
+  * Added kimageformat-plugins to kde-recommends
+  * Added kinfocenter to kde
+  * Added kio to kde
+  * Added kio-extras to kde
+  * Added kleopatra to kde-recommends
+  * Added ksshaskpass to kde-recommends
+  * Added kwin to kde
+  * Added kwin-addons to kde-recommends
+  * Added kwrited to kde
+  * Added milou to kde-recommends
+  * Added oxygen-sounds to kde
+  * Added partitionmanager to kde-recommends
+  * Added phonon4qt5-backend-gstreamer to kde-recommends
+  * Added plasma-dataengines-addons to kde-recommends
+  * Added plasma-nm to kde-recommends
+  * Added plasma-runners-addons to kde-recommends
+  * Added plasma-wallpapers-addons to kde-recommends
+  * Added polkit-kde-agent-1 to kde-recommends
+  * Added powerdevil to kde
+  * Added qt5-image-formats-plugins to kde-recommends
+  * Added sddm-theme-breeze to kde
+  * Added udisks2 to kde-recommends
+  * Added upower to kde-recommends
+  * Added user-manager to kde-recommends
+  * Removed apper from kde-recommends
+  * Removed brltty from kde-recommends
+  * Removed colord-kde from kde-recommends
+  * Removed dolphin from kde
+  * Removed gnome-packagekit from gnome
+  * Removed kaccessible from kde-recommends
+  * Removed kamera from kde-recommends
+  * Removed kamoso from kde-recommends
+  * Removed kde-baseapps-bin from kde
+  * Removed kde-telepathy-text-ui from kde-recommends
+  * Removed kde-window-manager from kde
+  * Removed kde-workspace from kde
+  * Removed kde-zeroconf from kde
+  * Removed kdemultimedia-kio-plugins from kde
+  * Removed kdenetwork-filesharing from kde-recommends
+  * Removed kdepasswd from kde
+  * Removed khelpcenter4 from kde-recommends
+  * Removed klipper from kde
+  * Removed kmag from kde-recommends
+  * Removed kmousetool from kde-recommends
+  * Removed kppp from kde-recommends
+  * Removed ktouchpadenabler from kde-recommends
+  * Removed kuser from kde-recommends
+  * Removed libqca2-plugin-ossl from kde-recommends
+  * Removed oxygencursors from kde-recommends
+  * Removed plasma-netbook from kde
+  * Removed plasma-widget-folderview from kde-recommends
+  * Removed plasma-widget-menubar from kde-recommends
+  * Removed plasma-widget-message-indicator from kde-recommends
+  * Removed plasma-widget-networkmanagement from kde-recommends
+  * Removed polkit-kde-1 from kde-recommends
+  * Removed sddm from kde
+  * Removed skanlite from kde-recommends
+  * Removed xcursor-themes from kde-recommends
+  * Moved konsole to kde-recommends
+  * Moved software-properties-kde to kde
+
+ -- Matthias Klumpp <mak@debian.org>  Sa, 14 Mar 2015 10:14:20 +0100
+
+tanglu-meta (0.8.14) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Added gnome-software to gnome-recommends
+  * Removed libavcodec-extra-55 from gnome-recommends, kde-recommends
+  * Removed totem-mozilla from gnome-recommends
+  * Removed udisks from kde
+  * Removed update-manager-core from standard-recommends
+  * Removed upower from kde
+  * Moved software-properties-kde to kde-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Mon, 24 Nov 2014 20:08:06 +0100
+
+tanglu-meta (0.8.13) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Added pppconfig to standard-recommends
+  * Added sddm to kde
+  * Removed akregator from kde-recommends
+  * Removed cdrdao from kde-recommends
+  * Removed kdm from kde
+
+ -- Matthias Klumpp <mak@debian.org>  Sat, 23 Aug 2014 18:14:26 +0200
+
+tanglu-meta (0.8.12) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Added gstreamer1.0-fluendo-mp3 to gnome-recommends, kde-recommends
+  * Removed bluez-alsa from gnome-recommends, kde-recommends
+  * Removed bluez-gstreamer from gnome-recommends
+  * Removed gstreamer0.10-alsa from gnome-recommends, kde-recommends
+  * Removed gstreamer0.10-fluendo-mp3 from gnome-recommends, kde-
+    recommends
+  * Removed gstreamer0.10-plugins-bad from gnome-recommends, kde-
+    recommends
+  * Removed gstreamer0.10-plugins-base-apps from gnome-recommends, kde-
+    recommends
+  * Removed gstreamer0.10-plugins-good from gnome-recommends, kde-
+    recommends
+  * Removed gstreamer0.10-plugins-ugly from gnome-recommends, kde-
+    recommends
+  * Removed gstreamer0.10-pulseaudio from gnome-recommends, kde-
+    recommends
+  * Removed libavcodec-extra-54 from gnome-recommends, kde-recommends
+  * Moved gstreamer1.0-plugins-base-apps to gnome-recommends, kde-
+    recommends
+  * Added bluez-obexd to gnome-recommends, kde-recommends
+  * Added libavcodec-extra-55 to gnome-recommends, kde-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Tue, 08 Jul 2014 08:24:48 +0200
+
+tanglu-meta (0.8.11) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Removed ibus-pinyin-db-android from gnome-recommends
+  * Removed pppconfig from standard-recommends
+  * Set Priority of tanglu-minimal to important and tanglu-standard
+    to standard for tasksel compatibility
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 25 Jun 2014 20:30:12 +0200
+
+tanglu-meta (0.8.10) staging; urgency=low
+
+  * Refreshed dependencies
+  * Added tanglu-gnome-settings to gnome-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Thu, 20 Feb 2014 22:52:28 +0100
+
+tanglu-meta (0.8.9) staging; urgency=low
+
+  * Refreshed dependencies
+  * Added gstreamer0.10-alsa to kde-recommends
+  * Added gstreamer0.10-fluendo-mp3 to gnome-recommends, kde-recommends
+  * Added gstreamer0.10-plugins-bad to gnome-recommends, kde-recommends
+  * Added gstreamer0.10-plugins-base-apps to kde-recommends
+  * Added gstreamer0.10-plugins-good to gnome-recommends, kde-recommends
+  * Added gstreamer0.10-plugins-ugly to gnome-recommends, kde-recommends
+  * Added gstreamer0.10-pulseaudio to kde-recommends
+  * Added gstreamer1.0-alsa to kde
+  * Added gstreamer1.0-libav to gnome-recommends, kde-recommends
+  * Added gstreamer1.0-plugins-bad to gnome-recommends, kde-recommends
+  * Added gstreamer1.0-plugins-base-apps to kde
+  * Added gstreamer1.0-plugins-good to gnome-recommends, kde-recommends
+  * Added gstreamer1.0-plugins-ugly to gnome-recommends, kde-recommends
+  * Added gstreamer1.0-pulseaudio to kde
+  * Added libavcodec-extra-54 to gnome-recommends, kde-recommends
+  * Removed apparmor from standard-recommends
+  * Moved gstreamer0.10-alsa to gnome-recommends
+  * Moved gstreamer0.10-plugins-base-apps to gnome-recommends
+  * Moved gstreamer0.10-pulseaudio to gnome-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Fri, 14 Feb 2014 18:02:42 +0100
+
+tanglu-meta (0.8.8) staging; urgency=medium
+
+  * Refreshed dependencies
+  * Added acpi-support-base to standard
+  * Added btrfs-tools to standard-recommends
+  * Added bzip2 to minimal
+  * Added dbus to minimal
+  * Added eject to standard
+  * Added less to minimal
+  * Added locales to minimal
+  * Added ntp to standard-recommends
+  * Added python3 to standard
+  * Added resolvconf to minimal
+  * Added system-config-printer to gnome
+  * Added tanglu-standard to gnome, kde
+  * Added xz-utils to standard
+  * Replaced iproute with iproute2 in minimal
+  * Replaced ttf-dejavu-core with fonts-dejavu-core in gnome, kde
+  * Replaced plymouth-themes with plymouth-theme-tanglu-logo in standard-recommends
+  * Removed plymouth-theme-tanglu-logo from gnome-recommends, kde-recommends
+
+ -- Jon Severinsson <jon@severinsson.net>  Tue, 11 Feb 2014 22:00:00 +0100
+
+tanglu-meta (0.8.7) staging; urgency=low
+
+  * Refreshed dependencies
+  * Added grub-theme-tanglu to gnome-recommends, kde-recommends
+  * Added grub2 to gnome-recommends, kde-recommends
+  * Added logrotate to standard
+  * Removed grub-theme-tanglu from standard-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Thu, 16 Jan 2014 11:08:34 +0100
+
+tanglu-meta (0.8.6) staging; urgency=low
+
+  * Refreshed dependencies
+  * Removed logrotate from standard
+  * Removed parted from standard
+  * Removed partitionmanager from kde-recommends
+  * Moved khelpcenter4 to kde-recommends
+  * Moved kmix to kde-recommends
+  * Moved baobab to gnome-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Thu, 16 Jan 2014 10:04:08 +0100
+
+tanglu-meta (0.8.4) staging; urgency=low
+
+  * Refreshed dependencies
+  * Removed firefox-gnome-support from gnome-recommends
+  * Removed nautilus-sendto from gnome
+  * Removed rsyslog from minimal
+  * Removed wpasupplicant from gnome, kde
+  * Moved dmidecode to standard-recommends
+  * Moved genisoimage to gnome-recommends, kde-recommends
+  * Moved inputattach to gnome-recommends, kde-recommends
+  * Moved memtest86+ to standard-recommends
+  * Moved printer-driver-pnm2ppa to gnome-recommends, kde-recommends
+  * Suggest rsyslog in tanglu-standard
+
+ -- Matthias Klumpp <mak@debian.org>  Sun, 12 Jan 2014 18:36:24 +0100
+
+tanglu-meta (0.8.3) staging; urgency=low
+
+  * Refreshed dependencies
+  * Added bluez-alsa to gnome-recommends, kde-recommends
+  * Added bluez-gstreamer to gnome-recommends
+  * Added plasma-netbook to kde
+  * Removed brasero from gnome-recommends
+  * Removed fonts-cantarell from kde-recommends
+  * Removed fonts-liberation from gnome-recommends
+  * Removed gstreamer0.10-qapt from kde-recommends
+  * Removed k3b from kde-recommends
+  * Removed kdepim-strigi-plugins from kde-recommends
+  * Removed kerneloops-daemon from gnome-recommends, kde-recommends
+  * Removed kpat from kde-recommends
+  * Removed ktorrent from kde-recommends
+  * Removed plasma-widget-telepathy-chat from kde-recommends
+  * Removed transmission-gtk from gnome-recommends
+  * Moved udisks to kde
+  * Moved upower to kde
+  * Added firefox to kde-recommends
+  * Added kde-telepathy-text-ui to kde-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Mon, 16 Dec 2013 15:00:08 +0100
+
+tanglu-meta (0.8.2) staging; urgency=low
+
+  * Refreshed dependencies
+  * Added fonts-cantarell to gnome-recommends, kde-recommends
+  * Added plymouth-themes to standard-recommends
+  * Removed plasma-netbook from kde
+  * Removed plymouth-themes-script from standard-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Tue, 12 Nov 2013 14:48:42 +0100
+
+tanglu-meta (0.8.1) staging; urgency=low
+
+  * Refreshed dependencies
+  * Removed kbd from minimal
+
+ -- Matthias Klumpp <mak@debian.org>  Tue, 12 Nov 2013 10:38:08 +0100
+
+tanglu-meta (0.8) staging; urgency=low
+
+  * Refreshed dependencies
+  * Added fonts-linuxlibertine to gnome-recommends, kde-recommends
+  * Added kde-baseapps-bin to kde
+  * Added kdm to kde
+  * Removed bluez-alsa from gnome-recommends, kde-recommends
+  * Removed bluez-gstreamer from gnome-recommends
+  * Removed lightdm-kde-greeter from kde
+  * Removed rekonq from kde-recommends
+  * Removed ttf-linux-libertine from gnome-recommends, kde-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Sat, 19 Oct 2013 12:36:14 +0200
+
+tanglu-meta (0.7) staging; urgency=low
+
+  * Refreshed dependencies
+  * Added libpam-systemd to gnome, kde
+  * Removed libpam-ck-connector from gnome, kde
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 20 Sep 2013 00:48:27 +0200
+
+tanglu-meta (0.6) staging; urgency=low
+
+  * Refreshed dependencies
+  * Added kscreen to kde-recommends
+  * Added policykit-desktop-privileges to gnome-recommends, kde-
+    recommends
+  * Added tanglu-theme-gnome to gnome-recommends
+  * Added tanglu-theme-kde to kde-recommends
+  * Added ttf-oxygen-font-family to kde-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Mon, 02 Sep 2013 22:45:56 -0700
+
+tanglu-meta (0.5) staging; urgency=low
+
+  * Refreshed dependencies
+  * Added colord-kde to kde-recommends
+  * Added kio-mtp to kde-recommends
+  * Added print-manager to kde-recommends
+  * Added tanglu-kde-settings-active to kde-recommends
+  * Added tanglu-kde-settings-desktop to kde
+  * Added tanglu-kde-settings-netbook to kde-recommends
+  * Removed calligra from kde-recommends
+  * Added libnotify-bin to kde
+  * Added xdg-user-dirs to kde
+  * Added grub-theme-tanglu to standard-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Sat, 31 Aug 2013 22:04:40 -0700
+
+tanglu-meta (0.4) staging; urgency=low
+
+  * Refreshed dependencies
+  * Added gnome-calculator to gnome
+  * Removed libgd2-xpm from gnome
+  * Removed ttf-punjabi-fonts from gnome-recommends, kde-recommends
+  * Added plymouth-theme-tanglu-logo to gnome-recommends, kde-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Wed, 14 Aug 2013 22:34:11 +0000
+
+tanglu-meta (0.3) aequorea; urgency=low
+
+  * Refreshed dependencies
+  * Added firefox to gnome-recommends
+  * Added firefox-gnome-support to gnome-recommends
+  * Added systemd to minimal
+  * Added systemd-sysv to minimal
+  * Added gnect to gnome-recommends
+  * Added gnome-shell-extensions to gnome
+  * Added lightsoff to gnome-recommends
+  * Removed gnome-sudoku from gnome-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Wed, 24 Apr 2013 12:31:54 +0200
+
+tanglu-meta (0.2) aequorea; urgency=low
+
+  * Refreshed dependencies
+  * Added gdm3 to gnome
+  * Added libreoffice-style-tango to gnome-recommends
+  * Added console-setup to minimal
+  * Added kbd to minimal
+  * Added lsb-release to minimal
+  * Added sudo to minimal
+  * Added gnome-documents to gnome
+  * Added gnome-themes-standard to gnome
+  * Added kdemultimedia-kio-plugins to kde
+  * Added konversation to kde-recommends
+  * Added kuser to kde-recommends
+  * Added oxygencursors to kde-recommends
+  * Added plasma-widget-telepathy-chat to kde-recommends
+  * Added pulseaudio-module-x11 to kde-recommends
+  * Added rhythmbox-plugins to gnome-recommends
+  * Added ttf-linux-libertine to gnome-recommends, kde-recommends
+  * Removed fonts-liberation from kde-recommends
+  * Removed qt-at-spi from gnome-recommends
+  * Removed quassel from kde-recommends
+  * Removed xdg-user-dirs from kde
+  * Removed zenity from gnome
+  * Added packagekit to gnome, kde
+  * Added plymouth-themes-script to standard-recommends
+  * Removed packagekit from standard-recommends
+
+ -- Matthias Klumpp <mak@debian.org>  Sun, 07 Apr 2013 20:26:28 +0200
+
+tanglu-meta (0.1) aequorea; urgency=low
+
+  * Initial release.
+
+ -- Matthias Klumpp <mak@debian.org>  Sat, 06 Apr 2013 22:26:37 +0200

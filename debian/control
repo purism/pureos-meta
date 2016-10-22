@@ -1,0 +1,54 @@
+Source: pureos-meta
+Section: metapackages
+Priority: optional
+Maintainer: Matthias Klumpp <matthias.klumpp@puri.sm>
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 8),
+               germinate (>= 1.18)
+
+Package: pureos-minimal
+Priority: important
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${germinate:Depends},
+         ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: Minimal core of PureOS
+ This package depends on all of the packages in the PureOS minimal system,
+ that is a functional command-line system with the following capabilities:
+ .
+  - Boot
+  - Detect hardware
+  - Connect to a network
+  - Install packages
+  - Perform basic diagnostics
+ .
+ It is also used to help ensure proper upgrades, so it is recommended to
+ not remove this package.
+
+Package: pureos-standard
+Priority: standard
+Architecture: any
+Depends: ${germinate:Depends},
+         ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Suggests: rsyslog
+Description: PureOS standard system
+ This package depends on all of the packages in the PureOS standard system.
+ This set of packages provides a comfortable command-line Unix-like
+ environment.
+ .
+ It is also used to help ensure proper upgrades, so it is recommended to
+ not remove this package.
+
+Package: pureos-desktop
+Architecture: any
+Depends: ${germinate:Depends},
+         ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: PureOS GNOME 3 desktop system
+ This package depends on all of the packages in the
+ PureOS GNOME 3 desktop system
+ .
+ It is also used to help ensure proper upgrades, so it is recommended to
+ not remove this package.

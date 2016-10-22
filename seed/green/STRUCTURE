@@ -1,0 +1,7 @@
+feature follow-recommends
+required:
+minimal: required
+standard: minimal
+desktop-common: standard
+build-essential: required
+desktop: desktop-common

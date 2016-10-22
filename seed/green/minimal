@@ -1,0 +1,57 @@
+Task-Section: user
+Task-Relevance: 9
+Task-Description: Minimal base system
+Task-Extended-Description: This task installs the core of an PureOS-based system.
+Task-Test-new-install: install skip
+Task-Seeds: required
+
+Note that some packages that form the core of a PureOS-based system are in the required seed, from which this seed inherits.
+The minimal seed describes those packages at Priority: important.
+
+Recommends are followed when processing this seed even though debootstrap doesn't do that.
+This may occasionally produce confusing results; however, it should be correct at release time, since the results
+of processing the seed are synced to Priority: important overrides.
+
+= Hardware and Architecture Support =
+
+== Generic ==
+
+== Comfortable Unix System ==
+
+Programs and packages necessary for both the proper functionality of the system and that any user would expect to find
+on a modern Unix-like system.
+
+ * adduser
+ * apt
+ * apt-utils               # apt-extracttemplates is required for debconf preconfiguration
+ * bzip2
+ * console-setup           # https://blueprints.launchpad.net/ubuntu/+spec/sane-installer-keyboard
+ * gnupg                   # introduce security from the very base
+ * initramfs-tools         # initramfs generator
+ * less
+ * lsb-release
+ * sudo
+ * pureos-archive-keyring  # for authenticated package downloads
+ * udev
+ * vim-tiny
+ * whiptail                # for debconf's Dialog frontend
+
+== Internationalization ==
+
+ * locales
+ * debconf-i18n
+
+== Networking ==
+
+These provide various networking services, all should be configured in a client-only state with the server de-activated
+unless the user requires it.
+
+ * isc-dhcp-client
+ * iproute2
+ * ifupdown
+ * iputils-ping
+ * netbase
+ * netcat-openbsd
+ * net-tools
+ * resolvconf
+

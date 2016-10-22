@@ -1,0 +1,126 @@
+This seed provides the basic components that should be installed on an
+Tanglu-family desktop system. It is expected to be supplemented with a
+particular flavour of desktop environment (e.g. GNOME, KDE, or XFCE).
+
+= Hardware and Architecture Support =
+
+== Architecture-independent ==
+
+ * alsa-base        # needed for proper hardware detection (hotplug/blacklist.d, modprobe.d)
+ * alsa-utils       # basic audio support and mixer level handling
+ * (pcmciautils)    # PCMCIA support for >= 2.6.13-rc1 kernels
+ * (inputattach)    # needed for serial mice
+
+Power management:
+
+ * (acpi-support)
+
+Bluetooth:
+
+ * (bluez)       # base for bluetooth support
+ * (bluez-obexd)
+ * (bluez-cups)  # allow connecting to bluetooth printers from CUPS
+
+== armel ==
+
+ * apmd [armel]
+
+= Console-Based Tools =
+
+These tools are very commonly used by people who drop into a console shell to do some work.
+
+ * bc
+ * zip
+ * unzip                # also used for .zip support in file-roller
+ * libpam-systemd
+ * (genisoimage)
+
+= Network Services =
+
+Basic network services and Windows integration.
+
+ * wireless-tools
+ * rfkill              # No longer using the copy from wireless-tools (LP: #715309)
+ * (libnss-mdns)       # IPv4 link-local DNS support
+ * ca-certificates     # common SSL certificates
+
+These packages help with system integration
+
+ * libsasl2-modules    # allows integration with MTA and login system
+ * (avahi-daemon)      # some people do not like it, and it is not essential
+
+= Printing =
+
+Printing and printer configuration is a real weak spot in Debian, and in Linux in general. We will need to stay at the front of the curve here.
+
+ * (cups)                     # our preferred printer management infrastructure
+ * (cups-bsd)                 # gives us lpc, lpq, lpr, lprm
+ * (cups-client)              # gives us cancel, cupstestppd, lp, lpoptions, lppasswd, lpstat, cupsaddsmb, accept, lpadmin, lpinfo, lpmove
+ * foomatic-db-compressed-ppds  # the foomatic printer driver database
+ * foomatic-filters             # converter from postscript to printer-specific formats
+ * openprinting-ppds            # Most common drivers we want in desktop; less common are in o-p-extra
+ * ghostscript-x
+ * (hplip)     			# support for HP all-in-one printers
+ * (printer-driver-pnm2ppa)     # several ppds require this
+ * (printer-driver-min12xxw)	# support for KonicaMinolta PagePro 1200W, 1300W printers
+ * (printer-driver-foo2zjs)	# support for printing to ZjStream-based printers
+ * (printer-driver-splix)	# support for Samsung lasers
+ * (printer-driver-pxljr)	# support for HP Color lasers
+ * (printer-driver-c2esp)       # support for Kodak injket printers
+ * (printer-driver-ptouch)      # support for Brother P-touch printers
+ * (printer-driver-sag-gdi)     # support for Rico Aficio SPxxxx printers
+
+= GUI infrastructure =
+
+Packages used for X preconfiguration are just Recommends; removing them after initial installation should be relatively safe.
+
+ * (laptop-detect)
+
+ * xorg                          # this includes xserver-xorg->xserver-xorg-{input|video}-* (no need to add specific drivers manually)
+ * !linux-image-*                # xorg transitively depends on this, but this would pull in grub-pc; we handle that separately
+ * xkb-data                      # XKB data now lives here
+
+ * (xdg-utils)                   # useful utilities
+ * xdg-user-dirs
+ * libnotify-bin                 # various scripts need notify-send (such as .bashrc's "alert")
+
+ * pulseaudio
+ * (pulseaudio-module-x11)
+ * (pulseaudio-module-bluetooth)
+ * packagekit
+
+ * gstreamer1.0-alsa
+ * gstreamer1.0-pulseaudio
+ * (gstreamer1.0-plugins-base-apps)
+
+Fonts:
+
+ * fonts-dejavu-core
+ * fonts-noto-hinted
+ * (fonts-hack-ttf)
+ * (fonts-noto-cjk)
+ * (fonts-linuxlibertine)
+ * (fonts-arkpandora)
+
+Media codecs:
+
+ * (libavcodec-extra)
+ * (gstreamer1.0-libav)
+ * (gstreamer1.0-plugins-good)
+ * (gstreamer1.0-plugins-bad)
+ * (gstreamer1.0-plugins-ugly)
+ * (gstreamer1.0-fluendo-mp3)
+
+= Other =
+
+ * anacron      # generally appropriate for desktops
+ * (cryptsetup) # needed for encrypted devices, also in d-i-requirements seed but might be needed for 3rd party drives
+ * (policykit-desktop-privileges) # passwordless disk/CPU speed/time operations for admins
+
+= Boot =
+
+ * (grub-theme-tanglu)
+
+= Meta =
+
+ * tanglu-standard # the standard Tanglu system

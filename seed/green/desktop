@@ -1,0 +1,150 @@
+Task-Per-Derivative: 1
+Task-Section: user
+Task-Description: PureOS GNOME desktop
+Task-Extended-Description: PureOS using the GNOME desktop environment.
+Task-Key: pureos-desktop
+Task-Seeds: desktop-common
+
+= Hardware and Architecture Support =
+
+== Architecture-independent ==
+
+Bluetooth:
+
+ * (gnome-bluetooth) # desktop bluetooth support
+
+= Network Services =
+
+Basic network services and Windows integration.
+
+ * (avahi-autoipd)     # IPv4 link-local interface configuration support
+ * (network-manager-gnome) # see NetworkRoaming spec
+ * (network-manager-pptp)
+ * (network-manager-pptp-gnome)
+
+= GUI infrastructure =
+
+ * (xterm)                        # Provide a backup terminal and complete X env.
+ * xdg-user-dirs-gtk
+
+Extra fonts:
+
+ * (fonts-cantarell)
+
+Input methods:
+
+ * (im-config)
+ * (ibus)
+ * (ibus-gtk3)
+ * (ibus-table)
+ * (ibus-pinyin)
+
+= Desktop GNOME Apps =
+
+Rather than using the meta-packages they are deliberately expanded so
+that we can select things a bit better.
+
+Base:
+ * gdm3
+ * gnome-system-monitor
+ * gnome-power-manager
+ * gnome-control-center
+ * gucharmap
+ * nautilus
+ * ssh-askpass-gnome
+ * yelp
+ * gvfs-bin			# mostly used as xdg-open backend
+ * (gvfs-fuse)			# let non-GNOME apps see GVFS via fuse
+ * (gnome-disk-utility)
+ * system-config-printer
+ * gnome-menus
+ * gnome-session
+ * (gnome-software)
+
+User:
+ * eog
+ * file-roller
+ * gedit
+ * (empathy)
+ * (telepathy-idle)        # basic IRC support for empathy
+ * software-properties-gtk # default GUI sources.list editor
+ * seahorse
+ * (libpam-gnome-keyring)
+ * gnome-screenshot
+ * gnome-system-log
+ * gnome-font-viewer
+ * (gnome-calculator)
+ * (gnome-calendar)
+ * (gnome-clocks)
+ * (gnome-music)
+ * (firefox)
+ * (nautilus-share)
+ * (rhythmbox)
+ * (rhythmbox-plugins)
+ * (totem)
+ * (vino) # vnc server
+ * (gnome-sushi)
+ * (terminix)
+ * (baobab)
+
+Games: We only ship a few by default.
+ * (gnome-nibbles)
+ * (lightsoff)
+ * (four-in-a-row)
+
+Themes: we will ship only the very best looking themes ;-)
+These packages are included for size guidance until we have PureOS-specific packages.
+
+ * gnome-session-canberra	# Needed to make login/logout sounds audible.
+ * dmz-cursor-theme
+ * gnome-themes-standard
+ * (pureos-theme-gnome)
+
+Accessibility tools:
+
+ * (gnome-accessibility-themes)
+ * (gnome-orca)
+ * (brltty)
+ * (xcursor-themes)
+ * (speech-dispatcher)
+ * (mousetweaks)
+ * at-spi2-core
+ * libatk-adaptor
+
+= Other Desktop GUI Apps =
+
+ * (libreoffice-style-tango) [!powerpc !armhf]
+ * (libreoffice-gnome) [!powerpc !armhf]
+ * (libreoffice-writer) [!powerpc !armhf]
+ * (libreoffice-calc) [!powerpc !armhf]
+ * (libreoffice-impress) [!powerpc !armhf]
+ * (libreoffice-math) [!powerpc !armhf]
+ * (libreoffice-ogltrans) [!powerpc !armhf]
+ * (libreoffice-pdfimport) [!powerpc !armhf !armel]
+ * (simple-scan)
+ * evince
+ * (gnome-screensaver) # recommends to allow for xscreensaver to be used
+ * (remmina)
+ * (shotwell)
+ * (deja-dup)
+
+Desktop Experience:
+ * gnome-shell
+ * gnome-shell-extensions
+
+Settings:
+ * pureos-gnome-settings
+
+= Documentation =
+
+ * doc-base    # integrates with scrollkeeper
+
+= Development =
+
+Here we provide a minimal development environment sufficient to build kernel
+drivers, so that this is possible on the live CD and in scenarios where
+it is problematic to get these packages onto the installed system in order
+to compile a driver. -mdz
+
+ * (gcc)
+ * (make)
