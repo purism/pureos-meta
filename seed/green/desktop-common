@@ -1,5 +1,5 @@
 This seed provides the basic components that should be installed on an
-Tanglu-family desktop system. It is expected to be supplemented with a
+PureOS desktop system. It is expected to be supplemented with a
 particular flavour of desktop environment (e.g. GNOME, KDE, or XFCE).
 
 = Hardware and Architecture Support =
@@ -119,8 +119,8 @@ Media codecs:
 
 = Boot =
 
- * (grub-theme-tanglu)
+ * (grub-theme-pureos)
 
 = Meta =
 
- * tanglu-standard # the standard Tanglu system
+ * pureos-standard # the standard PureOS system

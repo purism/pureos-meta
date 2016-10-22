@@ -2,7 +2,7 @@ Task-Section: user
 Task-Relevance: 8
 Task-Description: Standard system
 Task-Extended-Description: This task installs a reasonably small character-mode system.
-Task-Key: tanglu-standard
+Task-Key: pureos-standard
 Task-Test-new-install: install skip
 
 = UNIX =
@@ -75,7 +75,7 @@ These are used for debugging problems or examining the system.
 
  * (command-not-found)
  * (plymouth) # splash screen, and boot-time questions
- * (plymouth-theme-tanglu-logo)
+ * (plymouth-theme-pureos-logo)
 
 == Network ==
 

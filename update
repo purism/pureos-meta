@@ -6,7 +6,7 @@ if ! which dch >/dev/null; then
 fi
 
 if ! which debootstrap >/dev/null; then
-	echo >&2 "please install debootstrap"
+	echo >&2 "please install debootstrap (or make it available in PATH)"
 	exit 1
 fi
 
