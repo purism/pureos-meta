@@ -60,13 +60,12 @@ Base:
  * gnome-menus
  * gnome-session
  * (gnome-software)
+ * (gnome-software-plugin-flatpak)
 
 User:
  * eog
  * file-roller
  * gedit
- * (empathy)
- * (telepathy-idle)        # basic IRC support for empathy
  * software-properties-gtk # default GUI sources.list editor
  * seahorse
  * (libpam-gnome-keyring)
@@ -76,7 +75,6 @@ User:
  * (gnome-calculator)
  * (gnome-calendar)
  * (gnome-clocks)
- * (gnome-music)
  * (firefox-esr)
  * (nautilus-share)
  * (rhythmbox)
@@ -91,6 +89,7 @@ Games: We only ship a few by default.
  * (gnome-nibbles)
  * (lightsoff)
  * (four-in-a-row)
+ * (supertuxkart)
 
 Themes: we will ship only the very best looking themes ;-)
 These packages are included for size guidance until we have PureOS-specific packages.
@@ -122,7 +121,7 @@ Accessibility tools:
  * (libreoffice-ogltrans) [!powerpc !armhf]
  * (libreoffice-pdfimport) [!powerpc !armhf !armel]
  * (simple-scan)
- * evince
+ * (evince)
  * (gnome-screensaver) # recommends to allow for xscreensaver to be used
  * (remmina)
  * (shotwell)
