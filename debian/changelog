@@ -1,3 +1,17 @@
+pureos-meta (0.3) landing; urgency=medium
+
+  * Refreshed dependencies
+  * Added gnome-software-plugin-flatpak to desktop-recommends
+  * Added grub-theme-pureos to desktop-recommends
+  * Added pureos-theme-gnome to desktop-recommends
+  * Removed empathy from desktop-recommends
+  * Removed gnome-music from desktop-recommends
+  * Removed telepathy-idle from desktop-recommends
+  * Moved evince to desktop-recommends
+  * Added plymouth-theme-pureos to standard-recommends
+
+ -- Matthias Klumpp <matthias.klumpp@puri.sm>  Wed, 26 Oct 2016 19:15:54 +0200
+
 pureos-meta (0.2) landing; urgency=medium
 
   * Refreshed dependencies

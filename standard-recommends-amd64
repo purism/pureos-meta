@@ -13,6 +13,7 @@ ntfs-3g
 ntp
 openssh-client
 plymouth
+plymouth-theme-pureos
 popularity-contest
 ppp
 pppconfig
