@@ -85,11 +85,8 @@ User:
  * (terminix)
  * (baobab)
 
-Games: We only ship a few by default.
- * (gnome-nibbles)
- * (lightsoff)
- * (four-in-a-row)
- * (supertuxkart)
+Games:
+ None at time.
 
 Themes: we will ship only the very best looking themes ;-)
 These packages are included for size guidance until we have PureOS-specific packages.
