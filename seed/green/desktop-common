@@ -89,10 +89,6 @@ Packages used for X preconfiguration are just Recommends; removing them after in
  * (pulseaudio-module-bluetooth)
  * packagekit
 
- * gstreamer1.0-alsa
- * gstreamer1.0-pulseaudio
- * (gstreamer1.0-plugins-base-apps)
-
 Fonts:
 
  * fonts-dejavu-core

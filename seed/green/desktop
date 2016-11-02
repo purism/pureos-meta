@@ -57,7 +57,6 @@ Base:
  * (gvfs-fuse)			# let non-GNOME apps see GVFS via fuse
  * (gnome-disk-utility)
  * system-config-printer
- * gnome-menus
  * gnome-session
  * (gnome-software)
  * (gnome-software-plugin-flatpak)
@@ -75,15 +74,25 @@ User:
  * (gnome-calculator)
  * (gnome-calendar)
  * (gnome-clocks)
- * (firefox-esr)
  * (nautilus-share)
  * (rhythmbox)
  * (rhythmbox-plugins)
- * (totem)
  * (vino) # vnc server
  * (gnome-sushi)
- * (terminix)
+ * (gnome-terminal)
  * (baobab)
+ * (gnome-todo)
+ * (polari)
+ * (transmission)
+ * (gnome-maps)
+
+Browsers:
+ * (purebrowser)
+ * (epiphany)
+
+Multimedia:
+ * (kodi)
+ * (vlc)
 
 Games:
  None at time.
@@ -120,7 +129,6 @@ Accessibility tools:
  * (simple-scan)
  * (evince)
  * (gnome-screensaver) # recommends to allow for xscreensaver to be used
- * (remmina)
  * (shotwell)
  * (deja-dup)
 
