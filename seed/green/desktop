@@ -85,6 +85,7 @@ User:
  * (polari)
  * (transmission)
  * (gnome-maps)
+ * (gnome-photos)
 
 Browsers:
  * (purebrowser)
@@ -128,8 +129,6 @@ Accessibility tools:
  * (libreoffice-pdfimport) [!powerpc !armhf !armel]
  * (simple-scan)
  * (evince)
- * (gnome-screensaver) # recommends to allow for xscreensaver to be used
- * (shotwell)
  * (deja-dup)
 
 Desktop Experience:
