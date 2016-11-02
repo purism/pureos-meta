@@ -85,7 +85,6 @@ Packages used for X preconfiguration are just Recommends; removing them after in
  * libnotify-bin                 # various scripts need notify-send (such as .bashrc's "alert")
 
  * pulseaudio
- * (pulseaudio-module-x11)
  * (pulseaudio-module-bluetooth)
  * packagekit
 

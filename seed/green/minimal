@@ -24,7 +24,6 @@ on a modern Unix-like system.
  * adduser
  * apt
  * apt-utils               # apt-extracttemplates is required for debconf preconfiguration
- * bzip2
  * console-setup           # https://blueprints.launchpad.net/ubuntu/+spec/sane-installer-keyboard
  * gnupg                   # introduce security from the very base
  * initramfs-tools         # initramfs generator
@@ -53,5 +52,4 @@ unless the user requires it.
  * netbase
  * netcat-openbsd
  * net-tools
- * resolvconf
-
+ * (resolvconf)
