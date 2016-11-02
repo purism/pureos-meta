@@ -1,3 +1,19 @@
+pureos-meta (0.5) green; urgency=medium
+
+  * Refreshed dependencies
+  * Added console-setup to minimal
+  * Added dbus to minimal
+  * Added initramfs-tools to minimal
+  * Added less to minimal
+  * Added locales to minimal
+  * Added lsb-release to minimal
+  * Added makedev to minimal
+  * Added netcat-openbsd to minimal
+  * Added resolvconf to minimal-recommends
+  * Added sudo to minimal
+
+ -- Matthias Klumpp <matthias.klumpp@puri.sm>  Wed, 02 Nov 2016 21:45:56 +0100
+
 pureos-meta (0.4) green; urgency=medium
 
   * Refreshed dependencies
