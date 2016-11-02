@@ -1,3 +1,32 @@
+pureos-meta (0.4) green; urgency=medium
+
+  * Refreshed dependencies
+  * Added epiphany to desktop-recommends
+  * Added gnome-maps to desktop-recommends
+  * Added gnome-photos to desktop-recommends
+  * Added gnome-terminal to desktop-recommends
+  * Added gnome-todo to desktop-recommends
+  * Added kodi to desktop-recommends
+  * Added polari to desktop-recommends
+  * Added pureos-gnome-settings to desktop
+  * Added transmission to desktop-recommends
+  * Added vlc to desktop-recommends
+  * Removed firefox-esr from desktop-recommends
+  * Removed four-in-a-row from desktop-recommends
+  * Removed gnome-menus from desktop
+  * Removed gnome-nibbles from desktop-recommends
+  * Removed gnome-screensaver from desktop-recommends
+  * Removed gstreamer1.0-alsa from desktop
+  * Removed gstreamer1.0-plugins-base-apps from desktop-recommends
+  * Removed gstreamer1.0-pulseaudio from desktop
+  * Removed lightsoff from desktop-recommends
+  * Removed remmina from desktop-recommends
+  * Removed shotwell from desktop-recommends
+  * Removed terminix from desktop-recommends
+  * Removed totem from desktop-recommends
+
+ -- Matthias Klumpp <matthias.klumpp@puri.sm>  Wed, 02 Nov 2016 21:28:30 +0100
+
 pureos-meta (0.3) landing; urgency=medium
 
   * Refreshed dependencies

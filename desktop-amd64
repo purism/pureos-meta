@@ -17,7 +17,6 @@ gedit
 ghostscript-x
 gnome-control-center
 gnome-font-viewer
-gnome-menus
 gnome-power-manager
 gnome-screenshot
 gnome-session
@@ -27,8 +26,6 @@ gnome-shell-extensions
 gnome-system-log
 gnome-system-monitor
 gnome-themes-standard
-gstreamer1.0-alsa
-gstreamer1.0-pulseaudio
 gucharmap
 gvfs-bin
 libatk-adaptor
@@ -39,6 +36,7 @@ nautilus
 openprinting-ppds
 packagekit
 pulseaudio
+pureos-gnome-settings
 pureos-standard
 rfkill
 seahorse
