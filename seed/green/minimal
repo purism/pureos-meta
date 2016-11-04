@@ -28,7 +28,6 @@ on a modern Unix-like system.
  * gnupg                   # introduce security from the very base
  * initramfs-tools         # initramfs generator
  * less
- * lsb-release
  * sudo
  * pureos-archive-keyring  # for authenticated package downloads
  * udev
