@@ -42,7 +42,6 @@ rfkill
 seahorse
 software-properties-gtk
 ssh-askpass-gnome
-system-config-printer
 unzip
 wireless-tools
 xdg-user-dirs

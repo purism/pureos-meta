@@ -13,7 +13,6 @@ iputils-ping
 isc-dhcp-client
 less
 locales
-lsb-release
 makedev
 mawk
 net-tools
@@ -29,3 +28,4 @@ tzdata
 udev
 vim-tiny
 whiptail
+resolvconf

@@ -15,9 +15,6 @@ openssh-client
 plymouth
 plymouth-theme-pureos
 popularity-contest
-ppp
-pppconfig
-pppoeconf
 tcpdump
 telnet
 ufw

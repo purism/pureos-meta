@@ -1,3 +1,20 @@
+pureos-meta (0.6) green; urgency=medium
+.
+  * Refreshed dependencies
+  * Added purebrowser to desktop-recommends
+  * Added epiphany-browser to desktop-recommends
+  * Added libreoffice-style-breeze to desktop-recommends
+  * Removed lsb-release from minimal
+  * Removed epiphany from desktop-recommends
+  * Removed libreoffice-style-tango from desktop-recommends
+  * Removed ppp from standard-recommends
+  * Removed pppconfig from standard-recommends
+  * Removed pppoeconf from standard-recommends
+  * Removed resolvconf from minimal
+  * Removed system-config-printer from desktop
+
+ -- Matthias Klumpp <matthias.klumpp@puri.sm>  Sat, 05 Nov 2016 02:44:42 +0100
+
 pureos-meta (0.5) green; urgency=medium
 
   * Refreshed dependencies

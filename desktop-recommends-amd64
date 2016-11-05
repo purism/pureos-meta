@@ -11,7 +11,7 @@ cups
 cups-bsd
 cups-client
 deja-dup
-epiphany
+epiphany-browser
 evince
 fonts-arkpandora
 fonts-cantarell
@@ -59,7 +59,7 @@ libreoffice-impress
 libreoffice-math
 libreoffice-ogltrans
 libreoffice-pdfimport
-libreoffice-style-tango
+libreoffice-style-breeze
 libreoffice-writer
 make
 mousetweaks
@@ -78,6 +78,7 @@ printer-driver-pxljr
 printer-driver-sag-gdi
 printer-driver-splix
 pulseaudio-module-bluetooth
+purebrowser
 pureos-theme-gnome
 rhythmbox
 rhythmbox-plugins
