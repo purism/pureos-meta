@@ -56,9 +56,8 @@ Base:
  * gvfs-bin			# mostly used as xdg-open backend
  * (gvfs-fuse)			# let non-GNOME apps see GVFS via fuse
  * (gnome-disk-utility)
- * system-config-printer
  * gnome-session
- * (gnome-software)
+ * gnome-software
  * (gnome-software-plugin-flatpak)
 
 User:
