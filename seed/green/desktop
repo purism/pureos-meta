@@ -89,7 +89,7 @@ User:
 
 Browsers:
  * (purebrowser)
- * (epiphany)
+ * (epiphany-browser)
 
 Multimedia:
  * (kodi)
@@ -119,7 +119,7 @@ Accessibility tools:
 
 = Other Desktop GUI Apps =
 
- * (libreoffice-style-tango) [!powerpc !armhf]
+ * (libreoffice-style-breeze) [!powerpc !armhf]
  * (libreoffice-gnome) [!powerpc !armhf]
  * (libreoffice-writer) [!powerpc !armhf]
  * (libreoffice-calc) [!powerpc !armhf]

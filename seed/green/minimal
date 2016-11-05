@@ -51,4 +51,4 @@ unless the user requires it.
  * netbase
  * netcat-openbsd
  * net-tools
- * (resolvconf)
+ * resolvconf

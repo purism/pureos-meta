@@ -49,14 +49,11 @@ These provide various networking services, all should be configured in a client-
 
  * dnsutils       # LaMontJones
  * ftp
- * iptables       # FabioMassimoDiNitto
+ * iptables
  * (telnet)
- * (ppp)
- * (pppconfig)
- * (pppoeconf)
- * (openssh-client) # ColinWatson
+ * (openssh-client)
  * rsync            # would be just client but they are the same binary apparently
- * wget             # FabioMassimoDiNitto
+ * wget
 
 = Debugging and Diagnostics =
 
