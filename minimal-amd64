@@ -21,6 +21,7 @@ netcat-openbsd
 passwd
 procps
 pureos-archive-keyring
+resolvconf
 sudo
 systemd
 systemd-sysv
@@ -28,4 +29,3 @@ tzdata
 udev
 vim-tiny
 whiptail
-resolvconf

@@ -1,3 +1,14 @@
+pureos-meta (0.7) green; urgency=medium
+
+  * Refreshed dependencies
+  * Added firefox-esr to desktop-recommends
+  * Added xul-ext-https-everywhere to desktop-recommends
+  * Added xul-ext-ublock-origin to desktop-recommends
+  * Removed purebrowser from desktop-recommends
+  * Moved gnome-software to desktop
+
+ -- Matthias Klumpp <matthias.klumpp@puri.sm>  Tue, 08 Nov 2016 21:32:30 +0100
+
 pureos-meta (0.6) green; urgency=medium
 .
   * Refreshed dependencies

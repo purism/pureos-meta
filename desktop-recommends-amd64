@@ -13,6 +13,7 @@ cups-client
 deja-dup
 epiphany-browser
 evince
+firefox-esr
 fonts-arkpandora
 fonts-cantarell
 fonts-hack-ttf
@@ -29,7 +30,6 @@ gnome-disk-utility
 gnome-maps
 gnome-orca
 gnome-photos
-gnome-software
 gnome-software-plugin-flatpak
 gnome-sushi
 gnome-terminal
@@ -78,7 +78,6 @@ printer-driver-pxljr
 printer-driver-sag-gdi
 printer-driver-splix
 pulseaudio-module-bluetooth
-purebrowser
 pureos-theme-gnome
 rhythmbox
 rhythmbox-plugins
@@ -90,3 +89,5 @@ vlc
 xcursor-themes
 xdg-utils
 xterm
+xul-ext-https-everywhere
+xul-ext-ublock-origin
