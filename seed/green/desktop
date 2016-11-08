@@ -87,7 +87,9 @@ User:
  * (gnome-photos)
 
 Browsers:
- * (purebrowser)
+ * (firefox-esr)
+ * (xul-ext-ublock-origin)
+ * (xul-ext-https-everywhere)
  * (epiphany-browser)
 
 Multimedia:
