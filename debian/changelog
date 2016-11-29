@@ -1,3 +1,13 @@
+pureos-meta (0.8) green; urgency=medium
+
+  * Refreshed dependencies
+  * Added purebrowser to desktop-recommends
+  * Removed firefox-esr from desktop-recommends
+  * Removed xul-ext-https-everywhere from desktop-recommends
+  * Removed xul-ext-ublock-origin from desktop-recommends
+
+ -- Matthias Klumpp <matthias.klumpp@puri.sm>  Wed, 30 Nov 2016 10:42:10 +0100
+
 pureos-meta (0.7) green; urgency=medium
 
   * Refreshed dependencies
