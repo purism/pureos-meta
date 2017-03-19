@@ -21,6 +21,9 @@ Bluetooth:
  * (bluez-obexd)
  * (bluez-cups)  # allow connecting to bluetooth printers from CUPS
 
+Purism:
+ * (purism-device-config)
+
 == armel ==
 
  * apmd [armel]
@@ -84,9 +87,9 @@ Packages used for X preconfiguration are just Recommends; removing them after in
  * xdg-user-dirs
  * libnotify-bin                 # various scripts need notify-send (such as .bashrc's "alert")
 
- * pulseaudio
+ * (pulseaudio)
  * (pulseaudio-module-bluetooth)
- * packagekit
+ * (packagekit)
 
 Fonts:
 
