@@ -1,3 +1,15 @@
+pureos-meta (0.8.1) green; urgency=medium
+
+  * Refreshed dependencies
+  * Added purism-device-config to desktop-recommends
+  * Removed epiphany-browser from desktop-recommends
+  * Removed vlc from desktop-recommends
+  * Moved evince to desktop
+  * Moved packagekit to desktop-recommends
+  * Moved pulseaudio to desktop-recommends
+
+ -- Matthias Klumpp <matthias.klumpp@puri.sm>  Mon, 20 Mar 2017 19:24:42 +0100
+
 pureos-meta (0.8) green; urgency=medium
 
   * Refreshed dependencies
