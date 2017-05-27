@@ -60,6 +60,9 @@ Base:
  * gnome-software
  * (gnome-software-plugin-flatpak)
 
+OEM:
+ * (gnome-initial-setup)
+
 Basic viewers:
  * eog
  * file-roller
@@ -93,6 +96,7 @@ Multimedia:
  * (rhythmbox)
  * (rhythmbox-plugins)
  * (gnome-photos)
+ * (totem)
 
 Office:
  * (gnome-todo)
