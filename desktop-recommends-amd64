@@ -11,7 +11,7 @@ cups
 cups-bsd
 cups-client
 deja-dup
-fonts-arkpandora
+flashrom
 fonts-cantarell
 fonts-hack-ttf
 fonts-linuxlibertine
@@ -24,7 +24,6 @@ gnome-calculator
 gnome-calendar
 gnome-clocks
 gnome-disk-utility
-gnome-initial-setup
 gnome-maps
 gnome-orca
 gnome-photos
@@ -46,6 +45,7 @@ ibus-pinyin
 ibus-table
 im-config
 inputattach
+isenkram-cli
 kodi
 laptop-detect
 libavcodec-extra
@@ -63,6 +63,7 @@ make
 mousetweaks
 nautilus-share
 network-manager-gnome
+network-manager-openvpn-gnome
 network-manager-pptp
 network-manager-pptp-gnome
 packagekit
