@@ -156,3 +156,4 @@ to compile a driver. -mdz
 
  * (gcc)
  * (make)
+ * (flashrom) # for Librem OEM
