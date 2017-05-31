@@ -21,6 +21,7 @@ Basic network services and Windows integration.
  * (network-manager-gnome) # see NetworkRoaming spec
  * (network-manager-pptp)
  * (network-manager-pptp-gnome)
+ * (network-manager-openvpn-gnome)
 
 = GUI infrastructure =
 
