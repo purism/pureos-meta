@@ -9,6 +9,8 @@ Task-Seeds: desktop-common
 
 == Architecture-independent ==
 
+ * (isenkram-cli)  # we actually want the GUI when it is working reliably
+
 Bluetooth:
 
  * (gnome-bluetooth) # desktop bluetooth support
