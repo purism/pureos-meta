@@ -64,7 +64,7 @@ Base:
  * (gnome-software-plugin-flatpak)
 
 OEM:
- * (gnome-initial-setup)
+# * (gnome-initial-setup) # g-i-s needs work, still
 
 Basic viewers:
  * eog
