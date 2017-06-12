@@ -21,9 +21,6 @@ Bluetooth:
  * (bluez-obexd)
  * (bluez-cups)  # allow connecting to bluetooth printers from CUPS
 
-Purism:
- * (purism-device-config)
-
 == armel ==
 
  * apmd [armel]
