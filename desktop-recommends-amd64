@@ -11,6 +11,7 @@ cups
 cups-bsd
 cups-client
 deja-dup
+enigmail
 flashrom
 fonts-cantarell
 fonts-hack-ttf
@@ -85,8 +86,8 @@ rhythmbox
 rhythmbox-plugins
 simple-scan
 speech-dispatcher
+thunderbird
 totem
-transmission
 vino
 xcursor-themes
 xdg-utils

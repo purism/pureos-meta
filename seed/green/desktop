@@ -90,9 +90,10 @@ Utils:
 
 Web:
  * (purebrowser)
- * (transmission)
  * (gnome-maps)
  * (polari)
+ * (thunderbird)
+ * (enigmail) # for Thunderbird
 
 Multimedia:
  * (kodi)

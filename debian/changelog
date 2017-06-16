@@ -1,3 +1,12 @@
+pureos-meta (0.8.5) green; urgency=medium
+
+  * Refreshed dependencies
+  * Added enigmail to desktop-recommends
+  * Added thunderbird to desktop-recommends
+  * Removed transmission from desktop-recommends
+
+ -- Matthias Klumpp <matthias.klumpp@puri.sm>  Fri, 16 Jun 2017 21:28:16 +0200
+
 pureos-meta (0.8.4) green; urgency=medium
 
   * Refreshed dependencies
