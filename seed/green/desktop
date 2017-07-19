@@ -101,6 +101,7 @@ Multimedia:
  * (rhythmbox-plugins)
  * (gnome-photos)
  * (totem)
+ * (cheese) # webcam viewer
 
 Office:
  * (gnome-todo)
