@@ -27,12 +27,12 @@ Basic network services and Windows integration.
 
 = GUI infrastructure =
 
- * (xterm)                        # Provide a backup terminal and complete X env.
  * xdg-user-dirs-gtk
 
 Extra fonts:
 
  * (fonts-cantarell)
+ * (fonts-lato)
 
 Input methods:
 
