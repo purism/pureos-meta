@@ -1,3 +1,11 @@
+pureos-meta (0.8.7) green; urgency=medium
+
+  * Refreshed dependencies
+  * Added fonts-lato to desktop-recommends
+  * Removed xterm from desktop-recommends
+
+ -- Matthias Klumpp <matthias.klumpp@puri.sm>  Mon, 24 Jul 2017 14:32:24 +0200
+
 pureos-meta (0.8.6) green; urgency=medium
 
   * Refreshed dependencies

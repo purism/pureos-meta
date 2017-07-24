@@ -16,6 +16,7 @@ enigmail
 flashrom
 fonts-cantarell
 fonts-hack-ttf
+fonts-lato
 fonts-linuxlibertine
 fonts-noto-cjk
 gcc
@@ -92,4 +93,3 @@ totem
 vino
 xcursor-themes
 xdg-utils
-xterm
