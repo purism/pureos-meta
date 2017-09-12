@@ -15,6 +15,7 @@ less
 locales
 makedev
 mawk
+mount
 net-tools
 netbase
 netcat-openbsd
