@@ -145,6 +145,9 @@ Desktop Experience:
 Settings:
  * pureos-gnome-settings
 
+VM Support:
+ * (spice-vdagent)
+
 = Documentation =
 
  * doc-base    # integrates with scrollkeeper
