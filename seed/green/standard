@@ -81,6 +81,9 @@ These are used for debugging problems or examining the system.
  * (tcpdump)
  * (ufw)                # Jamie Strandboge
 
+== Mandatory Access Control ==
+ * (apparmor)
+
 = Other =
 
  * acpi-support-base   # Required for power/reset button functionality
