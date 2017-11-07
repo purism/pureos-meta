@@ -8,6 +8,7 @@ dmz-cursor-theme
 doc-base
 eog
 evince
+faenza-icon-theme
 file-roller
 fonts-dejavu-core
 fonts-noto-hinted
@@ -17,7 +18,7 @@ gdm3
 gedit
 ghostscript-x
 gnome-control-center
-gnome-font-viewer
+gnome-logs
 gnome-power-manager
 gnome-screenshot
 gnome-session
@@ -25,10 +26,8 @@ gnome-session-canberra
 gnome-shell
 gnome-shell-extensions
 gnome-software
-gnome-system-log
 gnome-system-monitor
 gnome-themes-standard
-gucharmap
 gvfs-bin
 libatk-adaptor
 libnotify-bin
@@ -38,6 +37,7 @@ nautilus
 openprinting-ppds
 pureos-gnome-settings
 pureos-standard
+pureos-theme-gnome
 rfkill
 seahorse
 software-properties-gtk

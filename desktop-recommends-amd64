@@ -28,11 +28,11 @@ gnome-calculator
 gnome-calendar
 gnome-clocks
 gnome-disk-utility
+gnome-font-viewer
 gnome-maps
 gnome-orca
 gnome-photos
 gnome-software-plugin-flatpak
-gnome-sushi
 gnome-terminal
 gnome-todo
 grub-theme-pureos
@@ -41,11 +41,12 @@ gstreamer1.0-libav
 gstreamer1.0-plugins-bad
 gstreamer1.0-plugins-good
 gstreamer1.0-plugins-ugly
+gucharmap
 gvfs-fuse
 hplip
 ibus
 ibus-gtk3
-ibus-pinyin
+ibus-libpinyin
 ibus-table
 im-config
 inputattach
@@ -84,7 +85,6 @@ printer-driver-splix
 pulseaudio
 pulseaudio-module-bluetooth
 purebrowser
-pureos-theme-gnome
 rhythmbox
 rhythmbox-plugins
 simple-scan
@@ -92,6 +92,5 @@ speech-dispatcher
 spice-vdagent
 thunderbird
 totem
-vino
 xcursor-themes
 xdg-utils

@@ -1,3 +1,19 @@
+pureos-meta (0.8.9) green; urgency=medium
+
+  * Refreshed dependencies
+  * Added faenza-icon-theme to desktop
+  * Added gnome-logs to desktop
+  * Added ibus-libpinyin to desktop-recommends
+  * Removed gnome-sushi from desktop-recommends
+  * Removed gnome-system-log from desktop
+  * Removed ibus-pinyin from desktop-recommends
+  * Removed vino from desktop-recommends
+  * Moved gnome-font-viewer to desktop-recommends
+  * Moved gucharmap to desktop-recommends
+  * Moved pureos-theme-gnome to desktop
+
+ -- Matthias Klumpp <matthias.klumpp@puri.sm>  Tue, 07 Nov 2017 18:05:21 +0100
+
 pureos-meta (0.8.8) green; urgency=medium
 
   * Refreshed dependencies
