@@ -118,13 +118,13 @@ Office:
 Games:
  None at time.
 
-Themes: we will ship only the very best looking themes ;-)
-These packages are included for size guidance until we have PureOS-specific packages.
+Themes:
 
  * gnome-session-canberra	# Needed to make login/logout sounds audible.
  * dmz-cursor-theme
  * gnome-themes-standard
- * (pureos-theme-gnome)
+ * pureos-theme-gnome   # default wallpapers & co
+ * faenza-icon-theme    # default, so we need this to be a depends, not recommends for now
 
 Accessibility tools:
 
