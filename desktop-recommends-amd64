@@ -33,7 +33,6 @@ gnome-maps
 gnome-orca
 gnome-photos
 gnome-software-plugin-flatpak
-gnome-terminal
 gnome-todo
 grub-theme-pureos
 gstreamer1.0-fluendo-mp3
@@ -91,6 +90,7 @@ simple-scan
 speech-dispatcher
 spice-vdagent
 thunderbird
+tilix
 totem
 xcursor-themes
 xdg-utils
