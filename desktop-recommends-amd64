@@ -19,6 +19,7 @@ fonts-hack-ttf
 fonts-lato
 fonts-linuxlibertine
 fonts-noto-cjk
+fwupd
 gcc
 genisoimage
 gnome-accessibility-themes
@@ -71,6 +72,7 @@ network-manager-openvpn-gnome
 network-manager-pptp
 network-manager-pptp-gnome
 packagekit
+papirus-icon-theme
 pcmciautils
 polari
 printer-driver-c2esp

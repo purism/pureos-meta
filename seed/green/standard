@@ -88,3 +88,7 @@ These are used for debugging problems or examining the system.
 
  * acpi-support-base   # Required for power/reset button functionality
  * (popularity-contest)
+
+= Meta =
+
+ * pureos-minimal # the minimal PureOS system
