@@ -123,8 +123,8 @@ Themes:
  * gnome-session-canberra	# Needed to make login/logout sounds audible.
  * dmz-cursor-theme
  * gnome-themes-standard
- * pureos-theme-gnome   # default wallpapers & co
- * papirus-icon-theme   # default, so we need this to be a depends, not recommends for now
+ * pureos-theme-gnome    # default wallpapers & co, we can't make this one optional
+ * (papirus-icon-theme)  # default theme
 
 Accessibility tools:
 
