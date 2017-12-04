@@ -62,7 +62,6 @@ Base:
  * gnome-session
  * gnome-software
  * (gnome-software-plugin-flatpak)
- * (apparmor-notify) # notify about AppArmor denial messages on the desktop
 
 OEM:
 # * (gnome-initial-setup) # g-i-s needs work, still
