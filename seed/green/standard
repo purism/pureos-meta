@@ -83,6 +83,7 @@ These are used for debugging problems or examining the system.
 
 == Mandatory Access Control ==
  * (apparmor)
+ * (apparmor-profiles)
 
 = Other =
 
