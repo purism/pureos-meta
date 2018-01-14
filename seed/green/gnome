@@ -140,6 +140,7 @@ Accessibility tools:
 Desktop Experience:
  * gnome-shell
  * gnome-shell-extensions
+ * (chrome-gnome-shell)
 
 Settings:
  * pureos-gnome-settings
