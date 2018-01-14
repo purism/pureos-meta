@@ -1,4 +1,5 @@
 apparmor
+apparmor-profiles
 bash-completion
 btrfs-tools
 command-not-found

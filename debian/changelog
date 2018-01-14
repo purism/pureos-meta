@@ -1,3 +1,12 @@
+pureos-meta (0.8.12) green; urgency=medium
+
+  * Refreshed dependencies
+  * Added KDE Plasma seed
+  * Added apparmor-profiles to standard-recommends
+  * Added chrome-gnome-shell to gnome-recommends
+
+ -- Matthias Klumpp <matthias.klumpp@puri.sm>  Sun, 14 Jan 2018 20:36:24 +0100
+
 pureos-meta (0.8.11) green; urgency=medium
 
   * Refreshed dependencies

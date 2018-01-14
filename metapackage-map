@@ -1,3 +1,4 @@
 minimal pureos-minimal
 standard pureos-standard
-desktop pureos-desktop
+gnome pureos-gnome
+plasma pureos-plasma
