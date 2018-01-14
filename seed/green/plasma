@@ -78,7 +78,6 @@ Input methods:
  * (kwalletmanager)
  * (kcalc)
  * (ksystemlog)
- * (kdepim-kresources)
  * (kdepim-runtime)
  * (kleopatra)
  * (kmail)
@@ -96,10 +95,7 @@ Input methods:
  * (gnome-themes-standard) # Meh... But we need a GTK+3/GTK+2 theme for e.g. Firefox
  * (clementine)
  * (vlc)
- * (about-distro)
- * (kio-mtp)
  * (kdeconnect)
- * kdesudo        # simpler and more reliable than kdesu
  * (pinentry-qt) # for SMIME e-mail support
  * (gnupg-agent)  # for SMIME e-mail support
  * (gpgsm)        # SMIME engine
