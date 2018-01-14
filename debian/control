@@ -41,14 +41,34 @@ Description: PureOS standard system
  It is also used to help ensure proper upgrades, so it is recommended to
  not remove this package.
 
-Package: pureos-desktop
+Package: pureos-gnome
 Architecture: any
 Depends: ${germinate:Depends},
          ${misc:Depends}
 Recommends: ${germinate:Recommends}
-Description: PureOS GNOME 3 desktop system
+Description: PureOS GNOME desktop system
  This package depends on all of the packages in the
  PureOS GNOME 3 desktop system
  .
  It is also used to help ensure proper upgrades, so it is recommended to
  not remove this package.
+
+Package: pureos-plasma
+Architecture: any
+Depends: ${germinate:Depends},
+         ${misc:Depends}
+Recommends: ${germinate:Recommends}
+Description: PureOS KDE Plasma desktop system
+ This package depends on all of the packages in the
+ PureOS GNOME 3 desktop system
+ .
+ It is also used to help ensure proper upgrades, so it is recommended to
+ not remove this package.
+
+Package: pureos-desktop
+Architecture: any
+Section: oldlibs
+Depends: pureos-gnome,
+         ${misc:Depends}
+Description: Transitional package (pureos-desktop -> pureos-gnome)
+ This is a transitional package and can safely be removed.

@@ -1,0 +1,123 @@
+Task-Per-Derivative: 1
+Task-Section: user
+Task-Description: PureOS KDE Plasma desktop
+Task-Extended-Description: PureOS using the KDE Plasma desktop environment
+Task-Key: pureos-plasma
+Task-Seeds: desktop-common
+
+= Hardware and Architecture Support =
+
+= Network Services =
+
+Basic network services and Windows integration.
+
+ * (avahi-autoipd)     # IPv4 link-local interface configuration support
+ * (mobile-broadband-provider-info)
+
+= GUI infrastructure =
+
+Input methods:
+
+ * (im-config)
+ * (ibus-qt4)  # ibus support
+
+== Phonon and Frameworks ==
+
+ * (phonon-backend-gstreamer)
+ * (phonon4qt5-backend-gstreamer)
+ * (frameworkintegration)
+ * (kimageformat-plugins)
+ * (qt5-image-formats-plugins)
+
+== Plasma ==
+
+ * baloo-kf5
+ * breeze
+ * kde-cli-tools
+ * khelpcenter
+ * khotkeys
+ * kinfocenter
+ * kio
+ * kio-extras
+ * kmenuedit
+ * ksysguard
+ * kwin-wayland
+ * kwin-x11
+ * kwrited
+ * oxygen-sounds
+ * plasma-desktop
+ * powerdevil
+ * systemsettings
+ * (plasma-discover)
+ * (polkit-kde-agent-1) # needed by Discover but is an option compared to gtk polkit for gnome users
+ * (kde-config-touchpad)
+ * (ksshaskpass)
+ * (bluedevil)
+ * (kwin-addons)
+ * (plasma-widgets-addons)
+ * (plasma-dataengines-addons)
+ * (plasma-runners-addons)
+ * (plasma-wallpapers-addons)
+ * (plasma-widget-kimpanel)
+ * (kscreen)
+ * (milou)
+ * (plasma-nm)
+ * (kde-config-sddm)
+ * (user-manager)
+ * (kde-config-gtk-style) # GTK setup
+ * (kde-config-gtk-style-preview) # pulls in the GTK+ libraries
+
+= Desktop KDE Apps =
+
+ * ark
+ * dolphin
+ * kde-spectacle
+ * okular
+ * (konsole)
+ * (gwenview)
+ * (kwalletmanager)
+ * (kcalc)
+ * (ksystemlog)
+ * (kdepim-kresources)
+ * (kdepim-runtime)
+ * (kleopatra)
+ * (kmail)
+ * (kontact)
+ * (korganizer)
+ * (okular-extra-backends)
+ * (kate)
+ * (print-manager)
+
+== Other Software ==
+
+ * software-properties-kde
+ * (oxygen-icon-theme)
+ * (libpam-kwallet5)
+ * (gnome-themes-standard) # Meh... But we need a GTK+3/GTK+2 theme for e.g. Firefox
+ * (clementine)
+ * (vlc)
+ * (about-distro)
+ * (kio-mtp)
+ * (kdeconnect)
+ * kdesudo        # simpler and more reliable than kdesu
+ * (pinentry-qt) # for SMIME e-mail support
+ * (gnupg-agent)  # for SMIME e-mail support
+ * (gpgsm)        # SMIME engine
+
+== Other software ==
+
+ * (libreoffice-style-breeze)
+ * (libreoffice-kde)
+ * (libreoffice-writer)
+ * (libreoffice-calc)
+ * (libreoffice-impress)
+ * (purebrowser)
+
+== Supporting bits ==
+
+ * (upower)
+ * (udisks2)
+ * sddm-theme-breeze
+
+Settings:
+ * pureos-plasma-settings

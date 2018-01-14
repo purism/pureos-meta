@@ -4,4 +4,5 @@ minimal: required
 standard: minimal
 desktop-common: standard
 build-essential: required
-desktop: desktop-common
+gnome: desktop-common
+plasma: desktop-common
