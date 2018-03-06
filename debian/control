@@ -2,9 +2,11 @@ Source: pureos-meta
 Section: metapackages
 Priority: optional
 Maintainer: Matthias Klumpp <matthias.klumpp@puri.sm>
-Standards-Version: 3.9.8
 Build-Depends: debhelper (>= 10),
                germinate (>= 1.18)
+Standards-Version: 4.1.2
+Vcs-Browser: https://github.com/purism/pureos-meta
+Vcs-Git: https://github.com/purism/pureos-meta.git
 
 Package: pureos-minimal
 Priority: important
