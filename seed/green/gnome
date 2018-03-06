@@ -73,16 +73,17 @@ Basic viewers:
  * evince
 
 Utils:
+ * tilix [amd64]
+ * gnome-terminal [arm64]
  * (gucharmap)
- * software-properties-gtk # default GUI sources.list editor
- * seahorse
+ * (software-properties-gtk) # default GUI sources.list editor
+ * (seahorse)
  * (libpam-gnome-keyring)
  * gnome-screenshot
  * (gnome-font-viewer)
  * (gnome-calculator)
  * (gnome-clocks)
  * (nautilus-share)
- * (tilix)
  * (baobab)
  * (deja-dup)
  * (gnome-boxes)
