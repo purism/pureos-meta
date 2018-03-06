@@ -97,8 +97,8 @@ Input methods:
  * (vlc)
  * (kdeconnect)
  * (pinentry-qt) # for SMIME e-mail support
- * (gnupg-agent)  # for SMIME e-mail support
- * (gpgsm)        # SMIME engine
+ * (gnupg-agent) # for SMIME e-mail support
+ * (gpgsm)       # SMIME engine
 
 == Other software ==
 
