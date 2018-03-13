@@ -1,3 +1,14 @@
+pureos-meta (0.8.14) green; urgency=medium
+
+  * Refreshed dependencies
+  * Added new architecture arm64
+  * Added gnome-initial-setup to gnome-recommends
+  * Moved seahorse to gnome-recommends [amd64]
+  * Moved software-properties-gtk to gnome-recommends [amd64]
+  * Moved tilix to gnome [amd64]
+
+ -- Matthias Klumpp <matthias.klumpp@puri.sm>  Tue, 13 Mar 2018 17:52:55 +0100
+
 pureos-meta (0.8.12) green; urgency=medium
 
   * Refreshed dependencies

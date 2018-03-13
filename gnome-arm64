@@ -13,7 +13,6 @@ fonts-dejavu-core
 fonts-noto-hinted
 foomatic-db-compressed-ppds
 foomatic-filters
-gdm3
 gedit
 ghostscript-x
 gnome-control-center
@@ -24,8 +23,8 @@ gnome-session
 gnome-session-canberra
 gnome-shell
 gnome-shell-extensions
-gnome-software
 gnome-system-monitor
+gnome-terminal
 gnome-themes-standard
 gvfs-bin
 libatk-adaptor
@@ -35,11 +34,9 @@ libsasl2-modules
 nautilus
 openprinting-ppds
 pureos-gnome-settings
-pureos-standard
 pureos-theme-gnome
 rfkill
 ssh-askpass-gnome
-tilix
 unzip
 wireless-tools
 xdg-user-dirs

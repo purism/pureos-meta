@@ -14,7 +14,6 @@ cups-bsd
 cups-client
 deja-dup
 enigmail
-flashrom
 fonts-cantarell
 fonts-hack-ttf
 fonts-lato
@@ -35,7 +34,6 @@ gnome-initial-setup
 gnome-maps
 gnome-orca
 gnome-photos
-gnome-software-plugin-flatpak
 gnome-todo
 grub-theme-pureos
 gstreamer1.0-fluendo-mp3
@@ -53,7 +51,6 @@ ibus-table
 im-config
 inputattach
 isenkram-cli
-kodi
 laptop-detect
 libavcodec-extra
 libnss-mdns
@@ -78,7 +75,6 @@ papirus-icon-theme
 pcmciautils
 polari
 printer-driver-c2esp
-printer-driver-foo2zjs
 printer-driver-min12xxw
 printer-driver-pnm2ppa
 printer-driver-ptouch
@@ -87,7 +83,6 @@ printer-driver-sag-gdi
 printer-driver-splix
 pulseaudio
 pulseaudio-module-bluetooth
-purebrowser
 rhythmbox
 rhythmbox-plugins
 seahorse

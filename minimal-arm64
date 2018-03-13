@@ -1,0 +1,6 @@
+adduser
+debconf
+debconf-i18n
+netbase
+pureos-archive-keyring
+tzdata
