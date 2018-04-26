@@ -18,6 +18,7 @@ man-db
 mime-support
 pciutils
 psmisc
+pureos-minimal
 python3
 rsync
 strace

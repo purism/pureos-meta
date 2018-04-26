@@ -1,3 +1,35 @@
+pureos-meta (0.8.15) green; urgency=medium
+
+  * Refreshed dependencies
+  * Added apt to minimal [arm64]
+  * Added apt-utils to minimal [arm64]
+  * Added flashrom to gnome-recommends [arm64]
+  * Added gdm3 to gnome [arm64]
+  * Added gnome-software to gnome [arm64]
+  * Added gnome-software-plugin-flatpak to gnome-recommends [arm64]
+  * Added gnupg to minimal [arm64]
+  * Added ifupdown to minimal [arm64]
+  * Added iproute2 to minimal [arm64]
+  * Added iputils-ping to minimal [arm64]
+  * Added isc-dhcp-client to minimal [arm64]
+  * Added kodi to gnome-recommends [arm64]
+  * Added mawk to minimal [arm64]
+  * Added mount to minimal [arm64]
+  * Added net-tools to minimal [arm64]
+  * Added passwd to minimal [arm64]
+  * Added printer-driver-foo2zjs to gnome-recommends [arm64], plasma-
+    recommends [arm64]
+  * Added procps to minimal [arm64]
+  * Added pureos-minimal to standard [arm64]
+  * Added pureos-standard to gnome [arm64], plasma [arm64]
+  * Added systemd to minimal [arm64]
+  * Added systemd-sysv to minimal [arm64]
+  * Added udev to minimal [arm64]
+  * Added vim-tiny to minimal [arm64]
+  * Added whiptail to minimal [arm64]
+
+ -- Matthias Klumpp <matthias.klumpp@puri.sm>  Thu, 26 Apr 2018 12:42:18 +0200
+
 pureos-meta (0.8.14) green; urgency=medium
 
   * Refreshed dependencies
